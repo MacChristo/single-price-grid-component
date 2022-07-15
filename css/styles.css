@@ -40,6 +40,7 @@
 
   ul {
     padding: 0;
+    list-style: none;
   }
 
   .text-div {
@@ -123,6 +124,8 @@
     justify-content: center;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
+    margin: 0 300px 0 300px;
+    max-width: 700px;
   }
 
   .comm-div {
@@ -155,6 +158,7 @@
 
   ul {
     padding: 0;
+    list-style: none;
   }
 
   .text-div {
@@ -203,6 +207,10 @@
    padding: 0.9rem 6rem 0.9rem 6rem;
    border: none;
    box-shadow: 1px 5px 15px 0.5px hsl(218 1% 55%);
+  }
+
+  .btn:hover {
+    cursor: pointer;
   }
 
   .attribution {
